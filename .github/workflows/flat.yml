@@ -1,8 +1,5 @@
 name: Update data
 on:
-  schedule:
-    - cron: 0 0 * * * # Runs daily. See https://crontab.cronhub.io/
-  workflow_dispatch: {}
   push:
     branches:
       - master # Or main, or whatever branch you'd like to 'watch'
